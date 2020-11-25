@@ -35,22 +35,22 @@
 module.exports = {
   service1: {
     api: ['/items/', '/photos'],
-    url: 'http://localhost:3001',
+    url: 'http://ec2-54-214-116-240.us-west-2.compute.amazonaws.com:3000/',
     bundle: 'bundle.js',
   },
   service2: {
     api: ['/values', '/styles'],
-    url: 'http://localhost:3002',
+    url: 'http://107.22.130.204:3003/',
     bundle: 'bundle.js',
   },
   service3: {
     api: ['/related','/getrelatedpurchases', '/getdetails', '/getratingavg', '/getratingcount', '/related/getrelatedpurchases', '/related/getdetails'],
-    url: 'http://localhost:3003',
+    url: 'http://ec2-18-219-22-8.us-east-2.compute.amazonaws.com:3003/',
     bundle: 'bundle.js',
   },
   service4: {
     api: '/reviews',
-    url: 'http://localhost:3004',
+    url: 'http://ec2-18-219-89-193.us-east-2.compute.amazonaws.com:3004/',
     bundle: 'bundle.js',
   },
 };
