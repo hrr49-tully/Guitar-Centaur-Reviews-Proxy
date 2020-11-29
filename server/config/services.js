@@ -49,7 +49,7 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service4: {
-    api: '/reviews',
+    api: ['/reviews', '/reviews/stars', '/reviews/sort/upVotes'],
     url: 'http://18.219.89.193:3004/',
     bundle: 'bundle.js',
   },
