@@ -50,7 +50,7 @@ module.exports = {
   },
   service4: {
     api: ['/reviews', '/reviews/stars', '/reviews/sort/upVotes'],
-    url: 'http://18.219.89.193:3004/',
+    url: 'http://18.218.191.39:3004/',
     bundle: 'bundle.js',
   },
 };
